@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>/Users/finalangel/Sites/aldryn/aldryn-boilerplate-bootstrap3/static/js/addons/ckeditor.wysiwyg.js</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Cl.Utils.html">Cl.Utils</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/CKEDITOR.html">CKEDITOR</a></li>
+            
+                <li><a href="../modules/Cl.html">Cl</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: /Users/finalangel/Sites/aldryn/aldryn-boilerplate-bootstrap3/static/js/addons/ckeditor.wysiwyg.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/*!
+ * @author:    Divio AG
+ * @copyright: http://www.divio.ch
+ */
+
+// #####################################################################################################################
+// #CKEDITOR#
+/**
+ * Default CKEDITOR Styles
+ * Added within src/settings.py CKEDITOR_SETTINGS.stylesSet
+ *
+ * @module CKEDITOR
+ */
+
+CKEDITOR.allElements = [&#x27;p&#x27;, &#x27;h1&#x27;, &#x27;h2&#x27;, &#x27;h3&#x27;, &#x27;h4&#x27;, &#x27;h5&#x27;, &#x27;h6&#x27;, &#x27;div&#x27;];
+CKEDITOR.stylesSet.add(&#x27;default&#x27;, [
+    /* Block Styles */
+    { &#x27;name&#x27;: &#x27;Text Lead&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;lead&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Text Left&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-left&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Center&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-center&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Right&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-right&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Justify&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-justify&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text NoWrap&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-nowrap&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Spacer&#x27;, &#x27;element&#x27;: &#x27;div&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;spacer&#x27; }},
+    { &#x27;name&#x27;: &#x27;Spacer Small&#x27;, &#x27;element&#x27;: &#x27;div&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;spacer-xs&#x27; }},
+    { &#x27;name&#x27;: &#x27;Spacer Large&#x27;, &#x27;element&#x27;: &#x27;div&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;spacer-lg&#x27; }},
+    { &#x27;name&#x27;: &#x27;Spacer Zero&#x27;, &#x27;element&#x27;: &#x27;div&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;spacer-zero&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;List Unstyled&#x27;, &#x27;element&#x27;: [&#x27;ul&#x27;, &#x27;ol&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;list-unstyled&#x27; }},
+    { &#x27;name&#x27;: &#x27;List Inline&#x27;, &#x27;element&#x27;: [&#x27;ul&#x27;, &#x27;ol&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;list-inline&#x27; }},
+    { &#x27;name&#x27;: &#x27;Horizontal Description&#x27;, &#x27;element&#x27;: &#x27;dl&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;dl-horizontal&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Table&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Responsive&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table-responsive&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Striped&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table-striped&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Bordered&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table-bordered&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Hover&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table-hover&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Condensed&#x27;, &#x27;element&#x27;: &#x27;table&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;table-condensed&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Table Cell Active&#x27;, &#x27;element&#x27;: [&#x27;tr&#x27;, &#x27;th&#x27;, &#x27;td&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;active&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Cell Success&#x27;, &#x27;element&#x27;: [&#x27;tr&#x27;, &#x27;th&#x27;, &#x27;td&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;success&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Cell Warning&#x27;, &#x27;element&#x27;: [&#x27;tr&#x27;, &#x27;th&#x27;, &#x27;td&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;warning&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Cell Danger&#x27;, &#x27;element&#x27;: [&#x27;tr&#x27;, &#x27;th&#x27;, &#x27;td&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;danger&#x27; }},
+    { &#x27;name&#x27;: &#x27;Table Cell Info&#x27;, &#x27;element&#x27;: [&#x27;tr&#x27;, &#x27;th&#x27;, &#x27;td&#x27;], &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;info&#x27; }},
+
+    /* Inline Styles */
+    { &#x27;name&#x27;: &#x27;Text Primary&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-primary&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Success&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-success&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Info&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-info&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Warning&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-warning&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Danger&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-danger&#x27; }},
+    { &#x27;name&#x27;: &#x27;Text Muted&#x27;, &#x27;element&#x27;: &#x27;span&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;text-muted&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Image Responsive&#x27;, &#x27;element&#x27;: &#x27;img&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;img-responsive&#x27; }},
+    { &#x27;name&#x27;: &#x27;Image Rounded&#x27;, &#x27;element&#x27;: &#x27;img&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;img-rounded&#x27; }},
+    { &#x27;name&#x27;: &#x27;Image Circle&#x27;, &#x27;element&#x27;: &#x27;img&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;img-circle&#x27; }},
+    { &#x27;name&#x27;: &#x27;Image Thumbnail&#x27;, &#x27;element&#x27;: &#x27;img&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;img-thumbnail&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Pull Left&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;pull-left&#x27; }},
+    { &#x27;name&#x27;: &#x27;Pull Right&#x27;, &#x27;element&#x27;: CKEDITOR.allElements, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;pull-right&#x27; }},
+
+    { &#x27;name&#x27;: &#x27;Blockquote Reverse&#x27;, &#x27;element&#x27;: &#x27;blockquote&#x27;, &#x27;attributes&#x27;: { &#x27;class&#x27;: &#x27;blockquote-reverse&#x27; }}
+]);
+
+/*
+ * Extend ckeditor default settings
+ * DOCS: http://docs.ckeditor.com/#!/api/CKEDITOR.dtd
+ */
+CKEDITOR.dtd.$removeEmpty.span = 0;
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

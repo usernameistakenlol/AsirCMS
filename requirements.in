@@ -1,4 +1,23 @@
 # <INSTALLED_ADDONS>  # Warning: text inside the INSTALLED_ADDONS tags is auto-generated. Manual changes will be overwritten.
-aldryn-addons==0.4
-aldryn-django==1.6.11.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-addons/1.0.2/24f5d1c8-66fe-43b2-a540-17d61045a72b/aldryn-addons-1.0.2.tar.gz#egg=aldryn-addons==1.0.2
+https://control.aldryn.com/api/v1/apps/serve/aldryn-django/1.8.16.0/504b6173-d90a-4acf-a0fc-971e420f606b/aldryn-django-1.8.16.0.tar.gz#egg=aldryn-django==1.8.16.0
+https://control.aldryn.com/api/v1/apps/serve/aldryn-sso/1.1.8/222471ab-4846-46bc-99af-b2ef567b5455/aldryn-sso-1.1.8.tar.gz#egg=aldryn-sso==1.1.8
+https://control.aldryn.com/api/v1/apps/serve/aldryn-django-cms/3.4.1.3/0e6ee4f9-7816-4ce5-aeb7-d83511f7fb92/aldryn-django-cms-3.4.1.3.tar.gz#egg=aldryn-django-cms==3.4.1.3
+https://control.aldryn.com/api/v1/apps/serve/aldryn-devsync/1.1.1/3cd345be-2652-4aba-8a10-eb369a3dfbb4/aldryn-devsync-1.1.1.tar.gz#egg=aldryn-devsync==1.1.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-bootstrap3/1.1.2.1/1e442c8d-ab97-4df1-bc41-976cb430cd06/aldryn-bootstrap3-1.1.2.1.tar.gz#egg=aldryn-bootstrap3==1.1.2.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-common/1.0.4/1021e5a2-d7d6-4dde-8976-c2db74c52c68/aldryn-common-1.0.4.tar.gz#egg=aldryn-common==1.0.4
+https://control.aldryn.com/api/v1/apps/serve/aldryn-disqus/1.0.0/a9bedf8f-077d-42f5-aec8-468872588da7/aldryn-disqus-1.0.0.tar.gz#egg=aldryn-disqus==1.0.0
+https://control.aldryn.com/api/v1/apps/serve/aldryn-events/1.1.7.1/b5d8e3f7-a9ee-4faa-803e-61d6f10dd460/aldryn-events-1.1.7.1.tar.gz#egg=aldryn-events==1.1.7.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-faq/1.2.2.1/b05dc466-5138-4e32-be84-582e4b7d6f0b/aldryn-faq-1.2.2.1.tar.gz#egg=aldryn-faq==1.2.2.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-forms/2.1.3.1/1e791917-ae16-431c-9489-ea256853d172/aldryn-forms-2.1.3.1.tar.gz#egg=aldryn-forms==2.1.3.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-jobs/1.2.2.1/755ca060-8c61-40e7-9748-130aa09dcd5b/aldryn-jobs-1.2.2.1.tar.gz#egg=aldryn-jobs==1.2.2.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-newsblog/1.3.0.1/4e2f24e5-aeba-4fda-a6c5-cd6577d5b14b/aldryn-newsblog-1.3.0.1.tar.gz#egg=aldryn-newsblog==1.3.0.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-people/1.2.2.1/8215f196-030b-442d-b3f5-381f3c256224/aldryn-people-1.2.2.1.tar.gz#egg=aldryn-people==1.2.2.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-style/1.0.1/d5f209d4-6084-4e93-a538-e27b50e22b09/aldryn-style-1.0.1.tar.gz#egg=aldryn-style==1.0.1
+https://control.aldryn.com/api/v1/apps/serve/cmsplugin-filer/1.1.3.1/76da6ed6-b2e0-4ed4-943b-4bec7af8a9cb/cmsplugin-filer-1.1.3.1.tar.gz#egg=cmsplugin-filer==1.1.3.1
+https://control.aldryn.com/api/v1/apps/serve/djangocms-googlemap/0.5.2.1/413ea447-e602-42d5-9160-c0c2189bd84b/djangocms-googlemap-0.5.2.1.tar.gz#egg=djangocms-googlemap==0.5.2.1
+https://control.aldryn.com/api/v1/apps/serve/djangocms-link/2.0.2/9f2108b8-9df7-493e-be16-2fc408982b95/djangocms-link-2.0.2.tar.gz#egg=djangocms-link==2.0.2
+https://control.aldryn.com/api/v1/apps/serve/djangocms-snippet/1.9.1.0/7152cda3-b58a-45ef-9ed6-b55767eed575/djangocms-snippet-1.9.1.0.tar.gz#egg=djangocms-snippet==1.9.1.0
+https://control.aldryn.com/api/v1/apps/serve/djangocms-text-ckeditor/3.3.1.1/4c412842-e6bb-465d-a2ab-6d051277a7eb/djangocms-text-ckeditor-3.3.1.1.tar.gz#egg=djangocms-text-ckeditor==3.3.1.1
+https://control.aldryn.com/api/v1/apps/serve/django-filer/1.2.5.1/76ee6a08-6d1c-432d-b2c0-e92cd0eda59d/django-filer-1.2.5.1.tar.gz#egg=django-filer==1.2.5.1
 # </INSTALLED_ADDONS>

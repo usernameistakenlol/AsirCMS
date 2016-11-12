@@ -1,0 +1,32 @@
+{% load i18n sekizai_tags staticfiles %}
+
+<div class="aldryn aldryn-newsblog aldryn-newsblog-article-search js-aldryn-newsblog-article-search">
+    <form action="{{ query_url }}" class="form-inline" method="get">
+        {% csrf_token %}
+        <input type="hidden" name="max_articles" value="{{ instance.max_articles }}">
+        <div class="input-group">
+            <label for="field-{{ instance.pk }}-keyword" class="sr-only">{% trans "Keyword search" %}</label>
+            <input type="text" name="q" class="form-control" id="field-{{ instance.pk }}-keyword" placeholder="{% trans 'Keyword' %}"{% if query_url == None %} disabled{% endif %}>
+            <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary"{% if query_url == None %} disabled{% endif %}>{% trans "Go" %}</button>
+            </span>
+        </div>
+    </form>
+
+    <div class="search-results js-search-results"></div>
+</div>
+
+{% addtoblock "css" %}
+<style>
+.aldryn-newsblog-article-search .results-list .unpublished,
+.aldryn-newsblog-article.unpublished {
+    background: #f9fcee url('{% static 'img/aldryn_newsblog/unpublished.png' %}') repeat;
+}
+
+.aldryn-newsblog-article-search .results-list .future,
+.aldryn-newsblog-article.future {
+    background: #eefcfc url('{% static 'img/aldryn_newsblog/future.png' %}') repeat;
+}
+</style>
+{% endaddtoblock %}
+{% addtoblock "js" %}<script src="{% static 'js/addons/cl.newsblog.js' %}"></script>{% endaddtoblock %}
