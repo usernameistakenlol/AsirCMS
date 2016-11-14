@@ -1,0 +1,9 @@
+{% load cms_tags %}
+
+{% with html_classes=instance.get_column_classes %}
+<div{% if html_classes %} class="{{ html_classes }}"{% endif %}>
+    {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+    {% endfor %}
+</div>
+{% endwith %}

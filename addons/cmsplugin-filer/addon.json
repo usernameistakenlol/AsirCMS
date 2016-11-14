@@ -1,0 +1,7 @@
+{
+    "installed-apps": [
+        "cmsplugin_filer_file", 
+        "cmsplugin_filer_image"
+    ], 
+    "package-name": "cmsplugin-filer"
+}

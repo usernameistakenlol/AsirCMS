@@ -1,0 +1,20 @@
+{
+    "installed-apps": [
+        "aldryn_apphooks_config", 
+        "aldryn_boilerplates", 
+        "aldryn_common", 
+        "aldryn_events", 
+        "aldryn_reversion", 
+        "aldryn_translation_tools", 
+        "appconf", 
+        "bootstrap3", 
+        "djangocms_text_ckeditor", 
+        "easy_thumbnails", 
+        "extended_choices", 
+        "filer", 
+        "parler", 
+        "sortedm2m", 
+        "standard_form"
+    ], 
+    "package-name": "aldryn-events"
+}

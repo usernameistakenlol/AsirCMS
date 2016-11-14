@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+/.env
+/data
+/static_collected
+/node_modules
+/.env-local
+.aldryn
+data.tar.gz
